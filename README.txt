@@ -1,4 +1,4 @@
-README do clone 2
+README do clone 1 e 2
 
 Diretório destinado a disciplina Sistema da Informação I, com especial atenção ao Laboratório 01.
 
