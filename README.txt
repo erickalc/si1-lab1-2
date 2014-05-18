@@ -1,5 +1,5 @@
-README do clone 1! E também 2.
+README.
 
-Diretório destinado a disciplina Sistema da Informação I, com especial atenção ao Laboratório 01.
+Diretï¿½rio destinado a disciplina Sistema da Informaï¿½ï¿½o I, com especial atenï¿½ï¿½o ao Laboratï¿½rio 01.
 
-Todas as informações aqui contidas estão sujeitas a erros. Estou aprendendo.
+Todas as informaï¿½ï¿½es aqui contidas estï¿½o sujeitas a erros. Estou aprendendo.
