@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>SI - Cadastro</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<form action="obrigado.html" method='POST'>
+			<center>
+				<table>
+					<tr>
+						<td>Nome: </td>
+						<td><input name='nome' type="text" /></td>
+					</tr>
+					<tr>
+						<td>Matrícula: </td>
+						<td><input name='matricula' type="text" /></td>
+					</tr>
+					<tr>
+						<td>Turma: </td>
+						<td>
+							<select name="turma">
+								<option value="1">1</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan='2'><center>O que te interessa mais?</center></td>
+					</tr>
+					<tr>
+						<td><label><input type="checkbox" value="html" />HTML</label></td>
+						<td><label><input type="checkbox" value="css" />CSS</label></td>
+					</tr>
+					<tr>
+						<td><label><input type="checkbox" value="javascript" />JAVASCRIPT</label></td>
+						<td><label><input type="checkbox" value="jquery" />JQUERY</label></td>
+					</tr>
+					<tr>
+						<td><label><input type="checkbox" value="http" />HTTP</label></td>
+						<td><label><input type="checkbox" value="play" />PLAY FRAMEWORK</label></td>
+					</tr>
+					<tr>
+						<td><label><input type="checkbox" value="design" />DESIGN</label></td>
+						<td><label><input type="checkbox" value="bd" />BANCO DE DADOS</label></td>
+					</tr>
+					<tr>
+						<td><label><input type="checkbox" value="arquitetura" />ARQUITETURA DE SOFTWARE</label></td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td colspan='2'>
+							<center>
+								<input type="radio" name='juro' value='jurado' />Juro realizar todas as tarefas propostas pela disciplina.
+							</center>
+						</td>
+					</tr>
+				</table>
+				<input type="submit" value='Cadastrar' />
+			</center>
+		</form>
+	</body>
+</html>
