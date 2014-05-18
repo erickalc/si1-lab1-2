@@ -1,4 +1,4 @@
-README
+﻿README modificação 2
 
 Diretório destinado a disciplina Sistema da Informação I, com especial atenção ao Laboratório 01.
 
