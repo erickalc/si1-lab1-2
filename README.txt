@@ -1,5 +1,5 @@
 README
 
-Diretório destinado a disciplina Sistema da Informação I, com especial atenção ao Laboratório 01.
+DiretÃ³rio destinado a disciplina Sistema da InformaÃ§Ã£o I, com especial atenÃ§Ã£o ao LaboratÃ³rio 01.
 
-Todas as informações aqui contidas estão sujeitas a erros. Estou aprendendo.
+Todas as informaÃ§Ãµes aqui contidas estÃ£o sujeitas a erros. Estou aprendendo.
