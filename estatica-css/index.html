@@ -4,23 +4,94 @@
 		<title>S.I! É Peso</title>
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' type='text/css'></link>
 	</head>
 	<body>
 		<div class='container'>
-			<ul id='menu'>
-				<li><a href="#oq" style="background: #9933CC">O que é?</a></li>
-				<li><a href="#aprender" style="background: #0099CC">Ementa</a></li>
-				<li><a href="#convenci" style="background: #99CC00">Matricula!</a></li>
-			</ul>
-			<div id="oq" class='section' style="border-left: 100px solid #9933CC">
+			
+			<div id="header-main">
+				<h1>S.I.</h1>
+				<h2>Sistema da Informação</h2>
+			</div>
+			<div id="oq" class='section' style="padding-left: 50px;padding-bottom: 22px;padding-top: 22px;border-left: 100px solid #9933CC;background: rgba(153, 51, 204, 0.3);">
 				<h1>O que é S.I?</h1>
 				<p>Em primeiro lugar, apesar de a disciplina ser chamada Sistema da Informação, o seu conteúdo vai um pouco além da explanação teórica sobre o tema. Nós, carinhosamente a chamamos de Design de Sofware, que além de almentar sua auto-estima, ao dizer que a cursa, engloba os seus principais objetivos e foco de estudo. A disciplina é o pontapé inicial para introdução do aluno no mundo do desenvolvimento</p>
 			</div>
-			<div id="aprender" class='section' style="border-left: 100px solid #0099CC">
+			<div id="aprender" class='section' style="padding-left: 50px;padding-bottom: 22px;padding-top: 22px;border-left: 100px solid #0099CC;background: rgba(0, 153, 204, 0.3);">
 				<h1>O que vou aprender?</h1>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>Jquery</li>
+					<li>HTTP</li>
+					<li>Play Framework</li>
+					<li>Design Partners</li>
+					<li>Banco de Dados</li>
+					<li>Arquitetura de Software</li>
+					<li>A FAZER BONS PROGRAMAS!!!</li>
+				</ul>
 			</div>
-			<div id="convenci" class='section' style="border-left: 100px solid #99CC00">
+			<div id="convenci" class='section' style="padding-left: 50px;padding-bottom: 22px;padding-top: 22px;border-left: 100px solid #99CC00;background: rgba(153, 204, 0, 0.3);">
 				<h1>OK, como eu curso?</h1>
+				<p>Esta é a parte mais simples, basta apenas nos confirmar que esta extremamente encantado e convencido.<br>Não demora tanto. :)</p>
+				<form style=" margin-left: 20px; " action="obrigado.html" method='POST'>
+					<table>
+						<tr>
+							<td><b>Nome:</b> </td>
+							<td><input class="nnm-sub-field" name='nome' type="text" /></td>
+						</tr>
+						<tr>
+							<td><b>Matrícula:</b> </td>
+							<td><input class="nnm-sub-field" name='matricula' type="text" /></td>
+						</tr>
+						<tr>
+							<td><b>Turma:</b> </td>
+							<td>
+								<select id="selct-tur-sub" name="turma">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table>
+					<tr>
+							<td colspan='2' style=" padding-bottom: 20px; font-weight: 900; color: rgb(105, 105, 105); text-align: left; ">O que te interessa mais?</td>
+						</tr>
+						<tr>
+							<td><label><input type="checkbox" value="html" />HTML</label></td>
+							<td><label><input type="checkbox" value="css" />CSS</label></td>
+						</tr>
+						<tr>
+							<td><label><input type="checkbox" value="javascript" />JAVASCRIPT</label></td>
+							<td><label><input type="checkbox" value="jquery" />JQUERY</label></td>
+						</tr>
+						<tr>
+							<td><label><input type="checkbox" value="http" />HTTP</label></td>
+							<td><label><input type="checkbox" value="play" />PLAY FRAMEWORK</label></td>
+						</tr>
+						<tr>
+							<td><label><input type="checkbox" value="design" />DESIGN</label></td>
+							<td><label><input type="checkbox" value="bd" />BANCO DE DADOS</label></td>
+						</tr>
+						<tr>
+							<td><label><input type="checkbox" value="arquitetura" />ARQUITETURA DE SOFTWARE</label></td>
+						</tr>
+						<tr>
+						</tr>
+						<tr>
+							<td colspan='2' style=" padding-bottom: 10px; padding-top: 30px; font-weight: 600; font-size: 18px; ">
+								<center>
+									<input type="radio" name='juro' value='jurado' />Juro realizar todas as tarefas propostas pela disciplina.
+								</center>
+							</td>
+						</tr>
+					</table>
+					<input type="submit" value='Cadastrar' id="ma-submit-b" />
+				</form>
 			</div>
 		</div>
 	</body>
