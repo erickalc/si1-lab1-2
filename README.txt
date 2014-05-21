@@ -6,8 +6,8 @@ Tarefas:
 	- Parte 1 - OK
         - Parte 2
 		- estatica-simples - OK
-		- estatica-css
-		- estatica-bootstrap
+		- estatica-css - 90%
+		- estatica-bootstrap - OK
 	- Parte 3
 	- Parte 4
 
