@@ -1,92 +1,135 @@
-<!doctype html>
-<html>
-	<head>
-		<title>Checkout Mirror Fashion</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/bootstrap.css">
-	</head>
-	<body>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>Ótima escolha!</h1>
-				<p>Obrigado por comprar na Mirror Fashion! Preencha seus dados para efetivar a compra.</p>
-			</div>
-		</div>
-		<div class="container">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h2 class='panel-title'>Sua compra</h2>
-				</div>
-				<div class="panel-body">
-					<img src="http://img.timeinc.net/time/photoessays/2009/harry_potter_grows/harry_potter_grows_01.jpg" alt="Harry Potter" class="img-responsive img-thumbnail" />
-					<dl>
-						<dt>Produto</dt>
-						<dd>Harry Potter e a Pedra Filosofal</dd>
-				
-						<dt>Cor</dt>
-						<dd>verde</dd>
-				
-						<dt>Tamanho</dt>
-						<dd>40</dd>
-				
-						<dt>Preço</dt>
-						<dd>R$ 129,00</dd>
-					</dl>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<form action="obrigado.html" method='POST'>
-				<fieldset>
-					<legend>Dados pessoais:</legend>
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="files/favicon.ico">
 
-					<div class="form-group">
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-book"></span></span>
-							<label>Nome Completo: <input type="text" name="nome" class="form-control" autofocus></label>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="input-group">
-							<span class="input-group-addon">@</span>
-							<label>Email: <input type="email" name="email" class="form-control" placeholder="contato@exemplo.com"></label>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-copyright-mark"></span></span>
-							<label>CPF: <input type="text" name="cpf" class="form-control" placeholder="000.000.000-00"></label>
-						</div>
-					</div>
+    <title>S.I. - Sistema da Informação</title>
 
-					<div class="checkbox">
-						<label>
-							<input type="checkbox" value="sim" name="span" checkd>
-							Quero Receber muitos spans
-						</label>
-					</div>
-				</fieldset>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-				<fieldset>
-					<legend>Cartão de crédito</legend>
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
 
-					<div class="form-group">
-						<select name="bandeira">
-							<option value="visa">Visa</option>
-							<option value="mastercard">Mastercard</option>
-							<option value="amex">Amex</option>
-						</select>
-						<label>Número do Cartão: <input class="form-control" type="text" name="cartaoNum"></label>
-						<label>Vencimento: <input type="month" class="form-control" name="vencimento"></label>
-					</div>
-				</fieldset>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style id="holderjs-style" type="text/css"></style><link rel="stylesheet" type="text/css" href="chrome-extension://neomigpibafpboiknmijddgnncengfnm/css/divpop.css"></head>
 
-				<button type="submit" class="btn-primary btn-lg pull-right">
-					<span class="glyphicon glyphicon-thumbs-up"></span>
-					Confirmar
-				</button>
-			</form>
-		</div>
-	</body>
-</html>
+  <body style="position: static;"><div id="lingualy-logged-in" style="display:none;"></div><div id="lingualy-translate-btn" style="display:none;">	<a class="lingualy-translate-close"></a>	<img id="lingualy-translate-logo" src="chrome-extension://iilcekgoelpgecpjnnoikhbleipnjdhf/lookup/assets/translate/logo.png">	<a id="lingualy-translate-link">Translate?</a></div><div id="lingualy-installed" style="display:none;"></div><div class="linguapop-up" style="display: none;">	<div class="linguaholder">		<div id="lingua-login" class="lingua-login" style="display:none">			Please <a href="http://lingua.ly/?do=signin" target="_blank">log in</a> to activate Lingua.ly		</div>	</div>	<div id="lingualy-loadergif-cont" style="display:none">		<img id="lingua-loadergif" src="chrome-extension://iilcekgoelpgecpjnnoikhbleipnjdhf/lookup/assets/loader.gif">	</div></div>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a href="#" data-target="#myCarousel" data-slide-to="0">S.I</a></h3>
+              <ul class="nav masthead-nav">
+                <li><a href="#" data-target="#myCarousel" data-slide-to="1">O que é?</a></li>
+                <li><a href="#" data-target="#myCarousel" data-slide-to="2">Aprender</a></li>
+                <li><a href="#" data-target="#myCarousel" data-slide-to="3">Matricular</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>    
+        
+        <div class="container">
+          <div id="myCarousel" class="carousel slide">
+            <div style="height: 300px;" class="carousel-inner">
+                <div class="item active">
+                  <div class="inner cover">
+                    <h1 class="cover-heading">Sistema da Informação</h1>
+                    <p class="lead" lingdex="0">Você esta diante de uma oportunidade única. A oportunidade de escolha entre ser bom, e ser único.</p>
+                    <p class="lead" lingdex="1">
+                      <a href="#" class="btn btn-lg btn-default" data-target="#myCarousel" data-slide-to="1">O que é?</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="inner cover">
+                    <h1 class="cover-heading">O que é?</h1>
+                    <p class="lead" lingdex="0">Em primeiro lugar, apesar de a disciplina ser chamada Sistema da Informação, o seu conteúdo vai um pouco além da explanação teórica sobre o tema. Nós, carinhosamente a chamamos de Design de Sofware, que além de almentar sua auto-estima, ao dizer que a cursa, engloba os seus principais objetivos e foco de estudo. A disciplina é o pontapé inicial para introdução do aluno no mundo do desenvolvimento.</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="inner cover">
+                    <h1 class="cover-heading">Aprender</h1>
+                    <p class="lead" lingdex="0">
+                            <span class="label label-success">HTML</span>
+                            <span class="label label-primary">CSS</span>
+                            <span class="label label-info">Javascript</span>
+                            <span class="label label-warning">Jquery</span>
+                            <span class="label label-danger">HTTP</span>
+                            <span class="label label-info">Play Framework</span>
+                            <span class="label label-success">Design Partners</span>
+                            <span class="label label-warning">Banco de Dados</span>
+                            <span class="label label-primary">Arquitetura de Software</span>
+                            <span class="label label-danger">A FAZER BONS PROGRAMAS!!!</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="item">
+                    <div class="inner cover">
+                        <h1 class="cover-heading">Matricular</h1>
+                        <p class="lead" lingdex="0">
+                            <form action="." method="POST">
+                                <div class="form-group">
+                                    <label>
+                                        Nome:
+                                        <input type="text" name="nome" class="form-control" required>
+                                    </label>
+                                    <label>
+                                        Matrícula:
+                                        <input type="text" name="matricula" class="form-control" required>
+                                    </label>
+                                    <label>
+                                        Turma:
+                                        <select name="turma" class="form-control" required>
+                                            <option value="1">1</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            <form>
+                        </p>
+                        <p class="lead" lingdex="1">
+                            <a href="#" class="btn btn-lg btn-default" data-toggle="modal" data-target=".agradecimento"><span class="glyphicon glyphicon-book"></span> Matricular</a>
+                        </p>
+                    </div>
+                    
+                    <div style="overflow: hidden" class="modal fade agradecimento" tabindex="-1" role="dialog" aria-labelledby="agradecimentos" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                        	<div class="modal-content"><h2 style="color: #555; padding: 10px;"><span class="glyphicon glyphicon-thumbs-up"></span><br>Obrigado!</h2></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="cover-container">  
+          <div class="mastfoot">
+            <div class="inner">
+              <p lingdex="2">Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
