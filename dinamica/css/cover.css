@@ -150,6 +150,13 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  
+	/* Page aprender */
+	fieldset.scheduler-border {
+	    border: 1px solid #fff;
+	    width: 50% !important;
+	    float: left;
+	}
 }
 
 @media (min-width: 992px) {
@@ -160,27 +167,22 @@ body {
   }
 }
 
-
+  
 /* Page aprender */
 fieldset.scheduler-border {
     border: 1px solid #fff;
-    width: 50%;
-    float: left;
+    width: 100%;
 }
-
 fieldset.scheduler-border .label{
 	font-size: 1.2em;
 }
-
 fieldset.scheduler-border ul{
 	padding: 2px;
 }
-
 fieldset.scheduler-border li span{
 	position: relative;
 	overflow: hidden;
 }
-
 fieldset.scheduler-border li{
 	margin: 5px 0;
 	cursor: move;
