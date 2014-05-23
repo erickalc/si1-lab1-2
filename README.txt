@@ -9,6 +9,6 @@ Tarefas:
 		- estatica-css - OK
 		- estatica-bootstrap - OK
 	- Parte 3 - OK
-	- Parte 4
+	- Parte 4 - OK
 
 Todas as informações aqui contidas estão sujeitas a erros. Estou aprendendo.
