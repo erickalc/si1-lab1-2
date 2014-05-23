@@ -2,7 +2,7 @@
 
 Diretório destinado a disciplina Sistema da Informação I, com especial atenção ao Laboratório 01.
 
-Tarefas: OK
+Tarefas: OK!
 	- Parte 1 - OK
         - Parte 2 - OK
 		- estatica-simples - OK
