@@ -4,11 +4,11 @@ Diretório destinado a disciplina Sistema da Informação I, com especial atenç
 
 Tarefas:
 	- Parte 1 - OK
-        - Parte 2
+        - Parte 2 - OK
 		- estatica-simples - OK
-		- estatica-css - 90%
+		- estatica-css - OK
 		- estatica-bootstrap - OK
-	- Parte 3
+	- Parte 3 - OK
 	- Parte 4
 
 Todas as informações aqui contidas estão sujeitas a erros. Estou aprendendo.
